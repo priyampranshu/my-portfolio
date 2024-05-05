@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="If-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c206c09249.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="images/priyamlogo.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">My Certificates</a></li>
+                <li><a href="#portfolio">My Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p><span>SOFTWARE</span> DEVLOPER</p>
+            <h1>Hi, I'm <span>Priyam</span><br> Pranshu from Pune</h1>
+        </div>
+      </div>  
+    </div>
+<!-- ---------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/priyamsecondphoto.jpeg" alt="imageuser">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    <b>I'm a skilled software developer adept at crafting digital solutions. <br>With a strong grasp of SQL and data analytics, I transform raw data into actionable insights.<br> Let's collaborate to create efficient and impactful software solutions.<br> <span>Welcome to my portfolio!</span>
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>SQLProficiency</span><br>QueryOptimization,Database Management</li>
+                        <li><span> DataAnalytics</span><br>DataVisualization,Statistical Analysis</li>
+                        <li><span>Languages</span><br>C, C++, Java, Python,JavaScript,ReactJS</li>
+                        <li><span>SoftwareEngineering</span><br>Application Design,Code Optimization</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Currently</span><br>Working as a Freelancer developer</li>
+                        <li><span>JAN 2024 -JULY 2024</span><br>Front-End-Devloper Intern</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>10th From</span><br>St. Karen’s High school , Patna </li>
+                        <li><span>12th From </span><br>Kiddy Convent High School , Patna</li>
+                        <li><span>Currently</span><br>3rd Year B.TEch CSE from MIT PUNE</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="services-list">
+            <div>
+                <!-- <i class="fa-solid fa-code"></i> -->
+                <h2>Coursera - Databases and SQL for Data Science with Python</h2>
+                <p>Dive into the world of databases and SQL, mastering essential skills for data science with Python through this Coursera certificate
+                </p>
+                <a href="https://coursera.org/share/a4d0597e8d2cf6ccff54bc04d50eded4"><i class="fa-solid fa-up-right-from-square"></i></i></i></a>
+            </div>
+            <div>
+                <!-- <i class="fa-solid fa-crop"></i> -->
+                <h2>Hackerrank - SQL (Intermediate)</h2>
+                <br>
+                <br>
+                <br>
+                <p>Hackerrank SQL (Intermediate) certificate: Demonstrates proficiency in intermediate-level SQL querying skills through successful completion of challenges on Hackerrank's platform.
+                </p>
+                <a href="https://www.hackerrank.com/certificates/66ed1a9251fa"><i class="fa-solid fa-up-right-from-square"></i></i></i></a>
+            </div>
+            <div>
+                <!-- <i class="fa-brands fa-uncharted"></i> -->
+                <h2>Career Essentials in Data Analysis by Microsoft and LinkedIn</h2>
+                <p>Career Essentials in Data Analysis by Microsoft and LinkedIn provides foundational skills in data analysis, equipping learners with the tools and knowledge needed for success in analytical roles.</p>
+                <a href="https://www.linkedin.com/learning/certificates/81d9fa917b8425af4b99b141d36624c81792e1072d83d7889c5c0eb9803df919"><i class="fa-solid fa-up-right-from-square"></i></i></i></a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-----------portfolio-------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+    </div>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/tesla.jpeg">
+            <div class="layer">
+                <h3>Tesla Stock Price Forecasting System</h3>
+                <p>The Tesla Stock Price Forecasting System employs machine learning algorithms to analyze historical stock data and predict future price movements, aiding investors in making informed decisions. It leverages advanced data analytics to provide accurate short and long-term projections for Tesla's stock performance..</p>
+                    <a href="https://github.com/priyampranshu/Tesla-Stock-Price-Forecasting-System-"><i class="fa-solid fa-up-right-from-square"></i></i></i></a>
+                
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/priyam ecommerce.png">
+            <div class="layer">
+                <h3>E-Commerce Website</h3>
+                <p>Creating an intuitive e-commerce platform to seamlessly connect buyers with sellers, enhancing online shopping experiences through user-friendly interfaces and secure transaction processes..</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/priyam legal.png">
+            <div class="layer">
+                 <h3>Legal Advisory Chatbot</h3>
+                    <p>Introducing a sophisticated legal advisory chatbot, providing tailored legal guidance and insights to users, leveraging AI algorithms and natural language processing for efficient and accurate assistance in legal matters.
+                    </p>
+                    <a href="https://huggingface.co/spaces/kaushik-anand/Chatbot-legal-advice"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+            </div>
+        </div>
+
+    </div>
+    <a href="#" class="btn">See More</a>
+
+</div>
+
+<!------------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>priyampranshu00@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-9472603974</p>
+                <div class="social-icons">
+                    <a href="https://github.com/priyampranshu"><i class="fa-brands fa-github"></i></a>
+                    <!-- <a href="https://leetcode.com/u/ANAND1424/"><i class="cib-leetcode"></i></a>
+                    <a href="https://www.naukri.com/code360/profile/Anandkaushik"><i class="fas fa-user-ninja"></i></a> -->
+                    <a href="www.linkedin.com/in/priyam-pranshu"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="images/priyamresume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Priyam Singh. <i class="fa-solid fa-heart"></i>All rights reserved.</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        } 
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzwx_IDJcPv70eQ8JIXJy2Hnn1hZYFjT9ns8Ger1N2m1fEYSVklHrr7D_BVqjZd3LJO/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
